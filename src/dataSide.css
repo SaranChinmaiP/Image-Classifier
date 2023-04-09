@@ -1,0 +1,144 @@
+* {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.subMenu {
+  float: right;
+}
+
+.addSamples {
+  font-size: xx-small;
+  font-weight: bold;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.webCamUnit {
+  height: auto;
+  position: relative;
+  max-width: 250px;
+
+}
+
+.webCamUnit .closeCameraBtn {
+  position: absolute;
+  top: 5%;
+  left: 85%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+}
+
+.addClassContainer {
+  background-color: white;
+  max-width: 25vw;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-style: dashed;
+  border-width: thin;
+  align-items: center;
+  display: grid;
+
+}
+
+#addClassContainerBtn {
+  border: none;
+  display: block;
+  width: 90%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: rgb(116, 209, 249);
+
+}
+
+.modalUnit {
+
+  display: inline;
+  margin: 5px;
+
+}
+
+.modalUnit .modalImageUnit {
+  position: relative;
+  max-width: 150px;
+  display: inline;
+
+}
+
+.modalUnit .closeModalBtn {
+  position: absolute;
+  top: 40%;
+  left: 95%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+}
+
+.mainGrid {
+  padding: 1rem;
+}
+
+.grid2{
+  margin: 3rem ;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+
+}
+.grid3{
+  margin: 3rem ;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+
+}
+.grid4{
+  position: -webkit-sticky;
+  position: sticky;
+  top : 10% ;
+
+}
+
+
+
+/* Confidence Rate Bars */
+.Box{
+  display : inline ;
+}
+.progress {
+  position: relative;
+  width: 200px;
+  height: 1rem;
+  background: #9cbab4;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress__fill {
+  width: 50%;
+  height: 100%;
+  background: #009579;
+  transition: all 0.2s;
+}
+
+.progress__text {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  font: bold 14px "Quicksand", sans-serif;
+  color: black;
+};
