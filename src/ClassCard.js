@@ -79,7 +79,6 @@ export default  function ClassCard({
 
           <Modal open={open} onClose={()=> handleClose()}>
             <Box sx={style}>
-              <span>Name : </span>
               <h6>
                 {" "}
                 {labelName} -- Count : {labelArray.length}{" "}
