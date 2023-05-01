@@ -79,10 +79,11 @@ export default  function ClassCard({
 
           <Modal open={open} onClose={()=> handleClose()}>
             <Box sx={style}>
-              <h5>
+              <span>Name : </span>
+              <h6>
                 {" "}
-                Label : {labelName} -- Count : {labelArray.length}{" "}
-              </h5>
+                {labelName} -- Count : {labelArray.length}{" "}
+              </h6>
               <ModalList
                 object={object}
                 imageDeleteOperation={imageDeleteOperation}
